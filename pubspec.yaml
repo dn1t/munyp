@@ -1,0 +1,25 @@
+name: munyp
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.2+1
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+  go_router: ^13.2.2
+  hooks_riverpod: ^2.5.1
+  number_interpolation: ^1.0.1
+  webview_flutter: ^4.7.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.2
+
+flutter:
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/PretendardVariable.ttf
